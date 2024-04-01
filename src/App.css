@@ -1,3 +1,7 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +40,65 @@
     transform: rotate(360deg);
   }
 }
+
+#components-form-demo-normal-login .login-form {
+  max-width: 300px;
+}
+#components-form-demo-normal-login .login-form-forgot {
+  float: right;
+}
+#components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+  float: left;
+}
+#components-form-demo-normal-login .login-form-button {
+  width: 100%;
+}
+
+/* LoginForm.css */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.login-form {
+  max-width: 300px;
+  width: 100%;
+  background-color: #eceef0;
+  border-radius: 10px;
+  padding: 20px;  
+}
+.SignUp-form {
+  max-width: 100%;
+  width: 100%;
+  background-color: #eceef0;
+  border-radius: 10px;
+  /* padding: 30px 60px 30px 60px;  */
+  padding: 50px;  
+
+}
+
+.login-form-button {
+  width: 100%;
+}
+
+/* LoginForm.css */
+
+.icon-item {
+  text-align: center;
+}
+
+.icon {
+  width: 100%;
+  height: 90px;
+  color: #0851ec; /* Adjust the color as needed */
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv)[class^="ant-row"] [class^="ant-row"], :where(.css-dev-only-do-not-override-dkbvqv)[class*=" ant-row"] [class^="ant-row"], :where(.css-dev-only-do-not-override-dkbvqv)[class^="ant-row"] [class*=" ant-row"], :where(.css-dev-only-do-not-override-dkbvqv)[class*=" ant-row"] [class*=" ant-row"] {
+  box-sizing: border-box;
+  /* align-items: center; */
+  justify-content: center;
+}
+
